@@ -136,3 +136,71 @@ nav .menu a{
     padding: 12px 16px 12px 16px;
     cursor: pointer;
 }
+#problems{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+#problems .section-heading{
+   margin: 0 auto;
+}
+#problems .section-heading h2{
+      text-align: center;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 58px;
+      color: #001931;
+      margin: 0 auto;
+      padding-top: 45px;
+      
+}
+#problems .section-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
+    padding-top: 16px;
+}
+#problems .problem-cards{
+    max-width: 1630px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 44px;
+}
+#problems .problem-cards .prb-card{
+    width: 322px;
+    height: 251px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow:0 0 8px 0 #627382;
+    padding:24px ;
+    
+}
+.problem-cards .prb-card .icon{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 12px;   
+}
+.problem-cards .prb-card h4{
+    font-weight: 600;
+    font-size: 24px;
+    color: #001931;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.problem-cards .prb-card p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
