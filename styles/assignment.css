@@ -204,3 +204,126 @@ nav .menu a{
     color: #627382;
     line-height: 20px;
 }
+
+#solutions{
+
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 120px;
+    background-color: #FFFFFF;
+}
+
+#solutions .solution-parts{
+
+    max-width: 1600px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:60px;
+}
+.solution-parts .solution-img{
+    width: 400px;
+    border: none;
+    border-radius: 12px;
+}
+.solution-parts .solution{
+
+    width: 700px;
+    margin-top: 97.5px;
+    margin-bottom: 97.5px;
+}
+
+.solution .part-1 h5{
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+}
+.solution .part-1 h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: auto;
+    color: #001931;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.solution .part-1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    text-align: left;
+    padding-bottom: 40px;
+}
+.solution .List li{
+    display: flex;
+    align-items: center;
+}
+.List li+li{
+    margin-top: 16px;
+}
+
+#last-part {
+    max-width: 1600px;
+    width: 100%; 
+    margin: 0 auto;
+    background-color: #FFFFFF;   
+}
+#last-part .box{
+    width: 1360px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+}
+.box .ready{
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+}
+.ready h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    text-align: center;
+}
+.ready p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #627382;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.box .Access{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.Access .btn5{
+   width: 194px;
+   border: none;
+   border-radius: 4px;
+   background-color: #469165;
+   padding-top: 16.5px;
+   padding-bottom: 16.5px;
+   padding-left: 16px;
+   padding-right: 46px;
+   color: #FFFFFF;
+   background-image: url("../assets/ArrowRight.png");
+   background-position: right 18px center;
+   background-repeat: no-repeat;
+}
+.Access p{
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 80px;
+    text-align: center;
+}
